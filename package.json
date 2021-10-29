@@ -1,0 +1,11 @@
+{
+  "name": "react-modal-comp",
+  "version": "0.1.0",
+  "description": "Another react modal component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juanjo Ortiz",
+  "license": "ISC"
+}
