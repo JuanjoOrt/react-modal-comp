@@ -5,8 +5,8 @@ import './styles.css'
 const buttonEsc = 27
 
 export const ModalComponent = ({ closeModal, children, overlayClass, bodyClass }: ModalProps) => {
-  const assignOverlayClass = !overlayClass && 'modal-overlay'
-  const assignBodyClass = !bodyClass && 'modal-body'
+  const assignOverlayClass = overlayClass ? overlayClass : 'modal-overlay'
+  const assignBodyClass = bodyClass ? bodyClass : 'modal-body'
 
   useEffect(() => {
     const close = (e: MouseEvent) => {
