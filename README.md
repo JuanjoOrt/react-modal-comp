@@ -9,7 +9,7 @@ function  App() {
 		<div  className="App">
 			<button  onClick={() =>  setVisible(true)}>Active modal</button>
 			<Modal  showModal={visible}  closeModal={() =>  setVisible(false)}  bodyClass='component-body-modal'>
-				This is the Modal
+				Modal box
 			</Modal>
 		</div>
 	)
