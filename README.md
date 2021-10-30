@@ -7,8 +7,10 @@ function  App() {
 	const [visible, setVisible] =  useState(false)
 	return (
 		<div  className="App">
-			<button  onClick={() =>  setVisible(true)}>Hola hola</button>
-			<Modal  showModal={visible}  closeModal={() =>  setVisible(false)}  bodyClass='component-body-modal'>Hola hola</Modal>
+			<button  onClick={() =>  setVisible(true)}>Active modal</button>
+			<Modal  showModal={visible}  closeModal={() =>  setVisible(false)}  bodyClass='component-body-modal'>
+				This is the Modal
+			</Modal>
 		</div>
 	)
 }
