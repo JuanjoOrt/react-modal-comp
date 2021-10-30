@@ -1,6 +1,5 @@
-import react, {useEffect} from 'react'
+import React from 'react'
 import { ModalComponent } from '../ModalComponent/Modal'
 import { ModalWrapperProps } from './InterfaceModalWrapper'
 
-
-export const Modal = ({showModal, ...props}: ModalWrapperProps) => showModal && <ModalComponent {...props}/>
+export const Modal = ({ showModal, ...props }: ModalWrapperProps) => showModal && <ModalComponent {...props}/>
