@@ -4,15 +4,15 @@ import { useState } from  'react'
 import {Modal} from  'react-modal-comp'
 
 function  App() {
-	const [visible, setVisible] =  useState(false)
-	return (
-		<div  className="App">
-			<button  onClick={() =>  setVisible(true)}>Active modal</button>
-			<Modal  showModal={visible}  closeModal={() =>  setVisible(false)}  bodyClass='component-body-modal'>
-				Modal box
-			</Modal>
-		</div>
-	)
+  const [visible, setVisible] =  useState(false)
+  return (
+    <div  className="App">
+      <button  onClick={() =>  setVisible(true)}>Active modal</button>
+      <Modal  showModal={visible}  closeModal={() =>  setVisible(false)}  bodyClass='component-body-modal'>
+	Modal box
+      </Modal>
+    </div>
+   )
 }
 
 export  default  App
